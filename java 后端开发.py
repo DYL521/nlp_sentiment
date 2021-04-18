@@ -10,7 +10,7 @@ https://www.cnblogs.com/rickiyang/p/11074158.html
 
 4、出现缓存不一致，主机宕机了？怎么处理
     redis 数据持久化策略： 怎么能本地缓存，减少数据库
-    AOF啊、追加
+    AOF、追加
 
     mysql:  如何保证断电数据不丢失数据？
         写日志、写缓存 -> 返回错误
