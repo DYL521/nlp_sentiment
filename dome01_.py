@@ -1,11 +1,11 @@
-
 from snownlp import SnowNLP
 
 from snownlp import SnowNLP
+
 s = SnowNLP(u"这本书质量真不太好！")
 
 print(u"\n中文分词:")
-print( " ".join(s.words))
+print(" ".join(s.words))
 
 print(u"\n词性标注:")
 print(s.tags)
@@ -35,3 +35,5 @@ print(s.idf)
 n = SnowNLP(u'「繁體字」「繁體中文」的叫法在臺灣亦很常見。')
 print(u"\n繁简体转换:")
 print(n.han)
+
+
